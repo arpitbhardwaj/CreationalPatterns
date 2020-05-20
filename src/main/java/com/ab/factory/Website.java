@@ -9,7 +9,6 @@ public abstract class Website {
     public List<Page> getPages() {
         return pages;
     }
-
     public Website() {
         this.createWebsite();
     }

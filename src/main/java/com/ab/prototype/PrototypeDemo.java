@@ -3,6 +3,15 @@ package com.ab.prototype;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Arpit Bhardwaj
+ * Used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
+ *
+ * Prototype design pattern solves problems:
+ * How can objects be created so that which objects to create can be specified at run-time?
+ * How can dynamically loaded classes be instantiated?
+ */
+
 public class PrototypeDemo {
 
     public static void main(String[] args) {

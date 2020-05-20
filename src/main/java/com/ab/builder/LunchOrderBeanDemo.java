@@ -13,8 +13,8 @@ public class LunchOrderBeanDemo {
         System.out.println(lunchOrderBean.getCondiments());
         System.out.println(lunchOrderBean.getDressing());
         System.out.println(lunchOrderBean.getMeat());
-        //lunchOrderBean is immutable
-        /*lunchOrderBean.setMeat("fish");
-        System.out.println(lunchOrderBean.getMeat());*/
+        //lunchOrderBean is mutable
+        lunchOrderBean.setMeat("fish");
+        System.out.println(lunchOrderBean.getMeat());
     }
 }
